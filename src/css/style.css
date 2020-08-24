@@ -1,0 +1,28 @@
+body button{
+    border: none;
+    font-size: 2vw;
+}
+td{
+    width: 20%;
+    height: 20%;
+}
+html, body, div,table, button{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+    overflow: hidden;
+    table-layout: fixed;
+}
+th, td, button{
+    outline: none;
+    border: 1px solid rgb(197, 33, 33);
+    color: white;
+    background-color: black;
+}
+th{
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(20, 20, 20);
+    font-size: 4vw;
+}
